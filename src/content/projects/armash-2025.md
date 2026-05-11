@@ -41,6 +41,11 @@ The log is a diegetic artifact — a document that implies the world it came fro
 
 We woke from cryo to the pale light over Garni Crater. The descent sequence had gone smoothly, but the habitat greeted us with that familiar mixture of triumph and unfinished business. Systems are mostly online — an astonishing feat given the conditions — but it seems the construction bots didn't get quite enough sun during their final charge cycle. A few solar relays still blink amber, water and cooking systems are offline and waiting for manual overrides.
 
+<figure>
+  <img src="/images/armash/day-1-garni-crater.jpg" alt="Colorized thermal survey image of the Garni Crater complex on Mars." />
+  <figcaption>Colorized thermal survey of the Garni Crater complex, captured prior to descent. Site selection confirmed.</figcaption>
+</figure>
+
 Power remains stable through daylight hours, though night storage continues to be a concern. Communication systems are operational but dependent on power systems. The cooking system remains offline due to power consumption concerns; backup units have been retrieved from storage for inspection and testing, but have been deemed too dangerous for use. A smaller, tertiary backup system has been pulled from storage and has been installed, tested, and cleared for use.
 
 From the moment we first looked out across the horizon, the twin peaks of distant mountains have defined our sense of place. The larger, which we've named **Ararat Mons**, rises with monumental calm, a fixed point against the shifting Martian sky. To its east stands **Ko-Fuji** — our "Little Fuji," though it stands higher than the one on Earth — a name chosen in equal parts humor and homesickness. Together they have become our compass and our calendar, the landmarks by which every day on this red world begins.
@@ -266,6 +271,11 @@ The EVA concluded with an Emergency Depressurization Drill, conducted to evaluat
 
 EVA response was immediate and coordinated. The crew executed decontamination procedures, re-entered the habitat, located the isolated team, and performed pressure-sickness diagnostics precisely according to protocol. The exercise validated both the HabCom leadership process and the crew's composure under stress.
 
+<figure>
+  <img src="/images/armash/day-10-eva-3.jpg" alt="EVA 3 surface operations." />
+  <figcaption>EVA 3 surface operations under post-storm recovery skies.</figcaption>
+</figure>
+
 Post-EVA debrief recorded unanimous agreement: this was the most complex and successful simulation to date, combining operational, technical, and psychological fidelity.
 
 The Armash Habitat remains fully operational and all systems nominal. **EVA 3 stands as a milestone in mission performance and teamwork.**
@@ -302,11 +312,18 @@ Now the habitat hums softly in standby, systems tapering toward shutdown. The da
 
 Tonight we begin the journey home. Tonight, we sit together for the last time beneath Ararat Mons, the mountain that watched over us, and let Mars breathe one more time before we go.
 
+<figure>
+  <img src="/images/armash/day-12-final-night.jpg" alt="The crew beneath Ararat Mons on the final night." />
+  <figcaption>The final night beneath Ararat Mons. End of mission.</figcaption>
+</figure>
+
 ---
 
 ## Appendix A — D.A.V.I.N.C.I.
 
 ### Distributed Autonomous Virtual Intelligence for Navigation, Coordination, and Insight
+
+![D.A.V.I.N.C.I. terminal interface showing the AI's signature acknowledgment glyph.](/images/armash/davinci.jpg)
 
 **Classification:** Artificial Crew Member Prototype
 **Operational Tier:** Cognitive Systems Support — Experimental Crew Augmentation Program
@@ -387,6 +404,8 @@ BIRDS were conceived under the guiding principle of "adaptive cooperation." Each
 **Subclass of:** B.I.R.D.S.
 **Designation:** MAGPIE-Class Type II Autonomous Drone
 
+![Field illustration of an M.A.G.P.I.E. unit in standby posture.](/images/armash/magpie.jpg)
+
 The M.A.G.P.I.E. series represents the second generation of B.I.R.D.S., designed for autonomous reconnaissance, data collection, and habitat support on extraterrestrial surfaces. Built with modular architecture and multi-environment mobility, each MAGPIE functions as both aerial and terrestrial probe, capable of transitioning between flight and ground operation modes as mission conditions demand.
 
 Where the smaller BIRDS units specialize in local surveying, atmospheric sampling, and fixed-position sensing, MAGPIEs are engineered for intermediate-range exploration and independent decision-making. Their adaptive onboard AI enables contextual prioritization of objectives — allowing them to pursue anomalies, catalog samples, and relay situational data without continuous operator oversight.
@@ -403,6 +422,8 @@ Field crews have noted that MAGPIEs exhibit higher-than-expected levels of initi
 
 **Subclass of:** B.I.R.D.S. — Type I Reconnaissance and Terrain Characterization Platform
 
+![Field illustration of a N.U.T.H.A.T.C.H. micro-survey drone.](/images/armash/nuthatch.jpg)
+
 The N.U.T.H.A.T.C.H. series represents the smallest and most numerous subclass within the B.I.R.D.S. family. Designed for near-surface flight and microterrain analysis, NUTHATCH units function as the mission's fine-detail mappers — charting subtle variations in elevation, density, and substructure across the surface.
 
 Their defining task is the topographic characterization of *Histoterrain* — the layered physical "tissue" of a planetary surface that reveals both its morphology and its evolving processes. By continuously mapping and remapping these strata, NUTHATCHES generate living terrain models that adapt to light, temperature, and human interaction.
@@ -412,6 +433,8 @@ NUTHATCHES operate best in flocks of five to ten, using the B.I.R.D.S. SwarmLink
 ### W.H.E.A.T.E.A.R. — Wide-range Hazard Evaluation and Active Threat Engagement and Autonomous Response
 
 **Subclass of:** B.I.R.D.S. — Type III Tactical Sentry and Habitat Defense Platform
+
+![Field illustration of a W.H.E.A.T.E.A.R. sentry drone.](/images/armash/wheatear.jpg)
 
 The W.H.E.A.T.E.A.R. series serves as the first active-defense subclass within the B.I.R.D.S. ecosystem, designed to identify, classify, and neutralize potential threats to habitat security and environmental stability. Its primary operational mandate is to detect, track, and counter unauthorized I.N.S.E.C.T. drones that may attempt infiltration, sabotage, or surveillance of mission infrastructure.
 
@@ -432,6 +455,8 @@ Unlike the B.I.R.D.S. system, which focuses on external exploration and large-sc
 
 **Subclass of:** I.N.S.E.C.T.
 
+![Field illustration of a J.O.E.Y. internal observation drone.](/images/armash/joey.jpg)
+
 JOEYs function as the habitat's internal scouts and diagnosticians — continuously circulating through corridors, compartments, and life-support modules to verify environmental stability. The defining feature of this subclass is the *Yervion Field Detector* — a sensor array tuned to monitor and quantify Yervions, a hypothesized exotic particle associated with high-energy radiation interactions in analog field experiments.
 
 They have been observed demonstrating mild anthropomorphic behaviors — such as hovering near crew during extended tasks or returning repeatedly to familiar sampling points — interpreted by the engineering team as manifestations of spatial memory loops. Though not capable of higher-level reasoning like the MAGPIE-class BIRDS, JOEYs are widely regarded by crews as *"companions of the airlock,"* a title earned through their constant presence during egress and ingress operations.
@@ -439,6 +464,8 @@ They have been observed demonstrating mild anthropomorphic behaviors — such as
 ### S.P.I.D.E.R. — Sterile Precision Intervention, Diagnostics, Extraction & Response
 
 **Subclass of:** I.N.S.E.C.T. — Type II Clinical Support and Internal Counter-Intrusion Platform
+
+![Field illustration of a S.P.I.D.E.R. clinical support drone.](/images/armash/spider.jpg)
 
 S.P.I.D.E.R. units are compact, multi-functional intrahab drones engineered to support crew health monitoring, emergency clinical interventions under human supervision, and secure capture of unauthorized micro-robots that infiltrate the pressurized environment.
 
@@ -450,6 +477,8 @@ Operationally, S.P.I.D.E.R. serves three linked functions: continuous clinical m
 
 **Subclass of:** I.N.S.E.C.T. — Type V Extended-Range Hunter-Seeker & Interdiction Platform
 
+![Field illustration of a D.R.A.G.O.N.F.L.Y.S. long-range interdiction drone.](/images/armash/dragonflys.jpg)
+
 D.R.A.G.O.N.F.L.Y.S. units are long-range, semi-autonomous aerial hunter-seekers designed to extend the habitat's defensive pale beyond the immediate perimeter. Tasked with reconnaissance, interdiction, and early neutralization of hostile I.N.S.E.C.T. incursions originating from other habitats or rogue swarms, these platforms combine high-end sensor fusion with decisive engagement options governed by the *Forward Liaison Yield System* — a ruleset that balances autonomy and restraint to avoid escalation while maximizing protective reach.
 
 Engineered under a doctrine of *controlled autonomy*, D.R.A.G.O.N.F.L.Y.S. operate at the tactical edge: see far, evaluate quickly, and resolve threats within prescribed engagement thresholds. Field teams report the distinctive harmonic whine of their rotors as a reassurance that the far perimeter is active.
@@ -459,6 +488,41 @@ Engineered under a doctrine of *controlled autonomy*, D.R.A.G.O.N.F.L.Y.S. opera
 ## Appendix C — Wayfinding and Rock Formations
 
 Each feature we name, from *The Sleeping Giant* to *The Hermit's Cave*, becomes a fixed point in both landscape and memory. These landmarks turn an otherwise anonymous terrain into a shared geography, anchoring the crew psychologically as much as geographically. The practice reinforces orientation, fosters belonging, and transforms an alien environment into a place of human continuity. Future crews who arrive here will inherit these names, and with them, a sense of lineage — knowing that others once stood at these same coordinates, looked upon these same shapes in the rock, and called them home.
+
+<figure>
+  <img src="/images/armash/wayfinding-sleeping-giant.jpg" alt="Watercolor field-journal illustration of a large rounded boulder formation." />
+  <figcaption>*The Sleeping Giant*</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/armash/wayfinding-hermits-cave.jpg" alt="Watercolor field-journal illustration of a recessed rock alcove." />
+  <figcaption>*The Hermit's Cave*</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/armash/wayfinding-old-man.jpg" alt="Watercolor field-journal illustration of twin stone pinnacles." />
+  <figcaption>*The Old Man*</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/armash/wayfinding-catchers-mitt.jpg" alt="Watercolor field-journal illustration of a curved rock formation resembling a catcher's mitt." />
+  <figcaption>*The Catcher's Mitt*</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/armash/wayfinding-gators-head.jpg" alt="Watercolor field-journal illustration of a long horizontal rock resembling a reptile's head." />
+  <figcaption>*The Gator's Head*</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/armash/wayfinding-coffee-bean.jpg" alt="Watercolor field-journal illustration of a small dark oblong stone." />
+  <figcaption>*The Coffee Bean*</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/armash/wayfinding-stepping-stones.jpg" alt="Watercolor field-journal illustration of a sloped hillside with a scatter of dark stones." />
+  <figcaption>*Stepping Stones*</figcaption>
+</figure>
 
 ---
 
