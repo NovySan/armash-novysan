@@ -1,0 +1,21 @@
+---
+import { getEntry, render } from 'astro:content';
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+
+// For now, the root URL of armash.novysan.com is the Armash project itself.
+// When you migrate the full site, this becomes a lab index page that
+// links to all projects, and the Armash page moves to /projects/armash-2025/
+// (see src/pages/projects/[...slug].astro for that pattern — easy to add).
+
+const project = await getEntry('projects', 'armash-2025');
+
+if (!project) {
+  throw new Error('Could not find armash-2025 project entry');
+}
+
+const { Content } = await render(project);
+---
+
+<ProjectLayout project={project}>
+  <Content />
+</ProjectLayout>

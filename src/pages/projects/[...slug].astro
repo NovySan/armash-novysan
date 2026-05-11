@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from 'astro:content';
+import ProjectLayout from '../../layouts/ProjectLayout.astro';
+
+// This route handles /projects/<slug>/ for any project in the collection.
+// Currently, the root index.astro renders the Armash project directly because
+// it's the only one. When you add more projects, they'll be reachable here
+// (e.g., /projects/infinite-hopper/), and you can rework index.astro into a
+// proper lab index that lists them.
+//
+// To add a new project: drop a new .md file into src/content/projects/ with
+// the required frontmatter (see src/content.config.ts). It will appear here
+// automatically on next build.
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+
+<ProjectLayout project={project}>
+  <Content />
+</ProjectLayout>

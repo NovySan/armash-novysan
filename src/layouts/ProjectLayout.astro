@@ -1,0 +1,56 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { data } = project;
+---
+
+<BaseLayout
+  title={data.title}
+  description={data.summary}
+  ogImage={data.heroImage}
+>
+  <section class="hero">
+    <p class="hero__eyebrow">Mission Archive · {data.mission ?? 'Enchantment Lab'}</p>
+    <h1 class="hero__title">{data.title}</h1>
+    <p class="hero__summary">{data.summary}</p>
+
+    <dl class="hero__meta">
+      {data.dates && (
+        <div>
+          <dt>Dates</dt>
+          <dd>{data.dates}</dd>
+        </div>
+      )}
+      {data.location && (
+        <div>
+          <dt>Location</dt>
+          <dd>{data.location}</dd>
+        </div>
+      )}
+      {data.role && (
+        <div>
+          <dt>Role</dt>
+          <dd>{data.role}</dd>
+        </div>
+      )}
+      {data.mission && (
+        <div>
+          <dt>Program</dt>
+          <dd>{data.mission}</dd>
+        </div>
+      )}
+    </dl>
+  </section>
+
+  <article class="page">
+    <div class="prose">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
