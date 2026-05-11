@@ -302,6 +302,33 @@ body::before {
 
 .prose li { margin: 0.4em 0; }
 
+/* Images & figures in prose body */
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2.5rem auto;
+  border: 1px solid var(--ink-edge);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.prose figure {
+  margin: 2.5rem 0;
+}
+
+.prose figure img {
+  margin: 0 auto 0.75rem;
+}
+
+.prose figcaption {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--fs-small);
+  color: var(--cream-faint);
+  text-align: center;
+  line-height: 1.5;
+}
+
 .prose a {
   color: var(--amber);
   text-decoration: none;
