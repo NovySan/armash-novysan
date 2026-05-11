@@ -48,6 +48,18 @@ const { data } = project;
     </dl>
   </section>
 
+ {data.heroImage && (
+    <figure class="hero-image">
+      <img
+        src={data.heroImage}
+        alt={data.heroImageAlt ?? ''}
+        loading="eager"
+        decoding="async"
+      />
+      {data.heroImageAlt && <figcaption>{data.heroImageAlt}</figcaption>}
+    </figure>
+  )}
+  
   <article class="page">
     <div class="prose">
       <slot />

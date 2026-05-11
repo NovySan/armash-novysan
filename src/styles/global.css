@@ -169,6 +169,34 @@ body::before {
   line-height: 1.4;
 }
 
+/* ---------- Hero image (between hero metadata and prose) ---------- */
+.hero-image {
+  max-width: var(--measure-wide);
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vh, 4.5rem) var(--pad-page) 0;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--ink-edge);
+  box-shadow:
+    0 0 0 1px rgba(212, 121, 59, 0.04),
+    0 30px 60px rgba(0, 0, 0, 0.45);
+}
+
+.hero-image figcaption {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--fs-small);
+  color: var(--cream-faint);
+  margin: 1rem auto 0;
+  text-align: center;
+  max-width: var(--measure);
+  line-height: 1.5;
+}
+
 /* ---------- Long-form content ---------- */
 .prose {
   max-width: var(--measure);
